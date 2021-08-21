@@ -1,0 +1,313 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: rgb(238, 239, 255);
+}
+.container {
+  max-width: 1270px;
+  margin: auto;
+  display: flex;
+}
+aside {
+  background: linear-gradient(334deg, rgb(0 195 195), rgb(111 0 255));
+  color: white;
+  padding: 1rem 2.6rem;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+section {
+  width: 75%;
+  padding: 1rem 4rem;
+  background-color: white;
+}
+.contact h4 {
+  font-weight: 700;
+  margin-bottom: .8rem;
+  position: relative;
+  padding-bottom: .4rem;
+  display: inline-block;
+}
+.contact h4::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 60%;
+  background-color: rgb(76, 255, 22);
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+.contact p {
+  margin: 0;
+  line-height: 30px;
+  color: rgb(245, 245, 245);
+  font-size: .9rem;
+
+}
+.contact a {
+  color: white;
+  color: rgb(245, 245, 245);
+  font-size: .9rem;
+}
+.tools {
+  margin-top: 1.2rem;
+}
+.tools h4 {
+  font-weight: 700;
+  margin-bottom: .8rem;
+  position: relative;
+  padding-bottom: .4rem;
+  display: inline-block;
+}
+.tools h4::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 60%;
+  background-color: rgb(64, 226, 255);
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+.tools p {
+  margin: 0;
+  line-height: 30px;
+  color: rgb(245, 245, 245);
+  font-size: .9rem;
+}
+.education {
+  margin-top: 1.2rem;
+}
+.education h4 {
+  font-weight: 700;
+  margin-bottom: .8rem;
+  position: relative;
+  padding-bottom: .4rem;
+  display: inline-block;
+}
+.education h4::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 60%;
+  background-color: rgb(199, 0, 76);
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+.education h5 {
+  margin: 0;
+  margin-bottom: .5rem;
+  color: rgb(245, 245, 245);
+}
+.education span {
+  font-size: .9rem;  
+  color: rgb(245, 245, 245);
+  line-height: 24px;
+}
+.certification {
+  margin-top: 1.2rem;
+}
+.certification h4 {
+  font-weight: 700;
+  margin-bottom: .8rem;
+  position: relative;
+  padding-bottom: .4rem;
+  display: inline-block;
+}
+.certification h4::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 60%;
+  background-color: rgb(0, 21, 211);
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+.certification span {
+  font-size: .9rem;
+  color: rgb(245, 245, 245);
+  line-height: 24px;
+}
+.cert-span {
+  display: block; 
+}
+header {
+  margin-bottom: 3rem;
+}
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: .3rem;
+  text-transform: uppercase;
+}
+header h4 {
+  margin: 0;
+  color: rgb(111 0 255);
+}
+.summary {
+  margin-bottom: 2.4rem;
+}
+.summary h3 {
+  background: linear-gradient(334deg, rgb(0 187 187), rgb(111 0 255));
+  padding: .5rem 1rem;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(128, 128, 128, 0.404);
+}
+.summary p {
+  width: 96%;
+  margin: auto;
+  text-align: justify;
+  line-height: 28px;
+}
+hr {
+  border-color: rgba(247, 247, 247, 0.404);
+  margin-bottom: 2rem;
+}
+.experience h3 {
+  background: linear-gradient(120deg, rgb(0 187 187), rgb(111 0 255));
+  padding: .5rem 1rem;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(128, 128, 128, 0.404);
+}
+.experience-group {
+  width: 96%;
+  margin: auto;
+  margin-bottom: 3rem;
+  margin-top: 1.8rem;
+}
+.experience-title {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 1.6rem; */
+}
+.experience-title span:first-child {
+  font-weight: 700;
+  color: rgb(43, 43, 138);
+}
+.experience-title span:nth-child(2) {
+  font-size: .9rem;
+}
+.experience h4 {
+  margin-bottom: 0;
+}
+.experience h5 {
+  font-style: italic;
+  font-weight: 600;
+  margin: .8rem 0;
+}
+ul {
+  margin-top: 0;
+}
+.experience li {
+  line-height: 30px;
+}
+
+@media (max-width: 1090px) {
+  aside {
+    padding: 1rem 1.2rem;
+  }
+  section {
+    padding: 1rem 2.5rem;
+  }
+}
+@media (max-width: 996px) {
+  aside {
+    width: 34%;
+  }
+}
+@media (max-width: 880px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  aside {
+    width: 100%;
+    padding: 3rem 3rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  section {
+    width: 100%;
+    padding: 2rem 3rem;
+  }
+  .contact, .tools, .education, .certification {
+    width: 48%;
+  }
+  header h1 {
+    font-size: 1.5rem;
+    margin-bottom: .4rem;
+  }
+  .experience h5 {
+    margin-bottom: 0;
+  }
+  /* .tools {
+    width: 49%;
+  }
+  .education {
+    width: 49%;
+  }
+  .certification {
+    width: 49%;
+  } */
+}
+@media (max-width: 630px) {
+  aside {
+    flex-direction: column;
+    padding: 3rem 1.5rem;
+  }
+  section {
+    padding: 2rem 1.5rem;
+  }
+  .contact, .tools, .education, .certification {
+    width: 80%;
+  }
+  .summary h3 {
+    font-size: .9rem;
+  }
+  hr {
+    width: 96%;
+  } 
+  /* .experience-group {
+    width: 100%;
+  } */
+  .experience-title {
+    font-size: .95rem;
+    flex-direction: column;
+  }
+  .experience-title span:first-child {
+    margin-bottom: .3rem;
+  }
+  .experience h3 {
+    font-size: .9rem;
+  }
+  ul {
+    padding-left: 1.6rem;
+    margin-top: .5rem;
+  }
+}
+@media (max-width: 500px) {
+  .summary h3 {
+    font-size: .8rem;
+  }
+  .summary p {
+    line-height: 26px;
+    font-size: 15px;
+  }
+  li {
+    font-size: 15px;
+  }
+  .experience h3 {
+    font-size: .8rem;
+  }
+}
