@@ -35,8 +35,8 @@ section {
   content: "";
   position: absolute;
   height: 2px;
-  width: 60%;
-  background-color: rgb(76, 255, 22);
+  width: 100%;
+  background-color: rgb(0, 255, 200);
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
@@ -67,7 +67,7 @@ section {
   content: "";
   position: absolute;
   height: 2px;
-  width: 60%;
+  width: 100%;
   background-color: rgb(64, 226, 255);
   left: 50%;
   transform: translateX(-50%);
@@ -93,8 +93,8 @@ section {
   content: "";
   position: absolute;
   height: 2px;
-  width: 60%;
-  background-color: rgb(199, 0, 76);
+  width: 100%;
+  background-color: rgb(250, 56, 130);
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
@@ -123,8 +123,8 @@ section {
   content: "";
   position: absolute;
   height: 2px;
-  width: 60%;
-  background-color: rgb(0, 21, 211);
+  width: 100%;
+  background-color: rgb(221, 151, 0);
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
@@ -139,6 +139,13 @@ section {
 }
 header {
   margin-bottom: 3rem;
+  border-right: 3px solid rgb(111 0 255);
+  border-bottom: 3px solid rgb(111 0 255);
+  padding-bottom: .8rem;
+  /* padding-top: .1rem; */
+  padding-left: 1.4rem;
+  border-radius: 1.2rem;
+  box-shadow: 2px 2px 2px #8080809c;
 }
 header h1 {
   font-size: 1.8rem;
@@ -309,5 +316,8 @@ ul {
   }
   .experience h3 {
     font-size: .8rem;
+  }
+  header h1 {
+    font-size: 1.4rem;
   }
 }
