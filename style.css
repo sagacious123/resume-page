@@ -146,6 +146,9 @@ header {
   padding-left: 1.4rem;
   border-radius: 1.2rem;
   box-shadow: 2px 2px 2px #8080809c;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 header h1 {
   font-size: 1.8rem;
@@ -155,6 +158,26 @@ header h1 {
 header h4 {
   margin: 0;
   color: rgb(111 0 255);
+}
+header a {
+  color: rgb(246, 246, 255);
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 5px;
+  background: linear-gradient(334deg, rgb(0 195 195), rgb(111 0 255));
+  padding: .5rem 1rem;
+  text-align: center;
+  position: relative;
+  /* top: -2rem; */
+  right: .8rem;
+  float: right;
+  transition: .4s linear;
+}
+header i {
+  margin-left: .2rem;
+} 
+header a:hover {
+  background: linear-gradient(334deg, rgb(111 0 255), rgb(0 195 195));
 }
 .summary {
   margin-bottom: 2.4rem;
@@ -295,12 +318,20 @@ ul {
   } */
 }
 @media (max-width: 630px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  header a {
+    margin-top: 1.6rem;
+    right: 0;
+  }
   aside {
     flex-direction: column;
     padding: 3rem 1.5rem;
   }
   section {
-    padding: 2rem 1.5rem;
+    padding: 1rem 1.5rem;
   }
   .contact, .tools, .education, .certification {
     width: 80%;
@@ -336,6 +367,9 @@ ul {
     margin-bottom: 1rem;
     margin-right: 0;
   }
+  .foot a {
+    padding: .5rem 1rem;
+  }
 }
 @media (max-width: 500px) {
   .summary h3 {
@@ -353,5 +387,8 @@ ul {
   }
   header h1 {
     font-size: 1.4rem;
+  }
+  .foot a {
+    padding: .5rem .8rem;
   }
 }
