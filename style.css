@@ -12,7 +12,8 @@ body {
   display: flex;
 }
 aside {
-  background: linear-gradient(334deg, rgb(0 195 195), rgb(111 0 255));
+  /* background: linear-gradient(334deg, rgb(0 195 195), rgb(111 0 255)); */
+  background: linear-gradient(334deg, rgb(0 195 195), rgb(41 1 162));
   color: white;
   padding: 1rem 2.6rem;
   width: 30%;
@@ -139,8 +140,10 @@ section {
 }
 header {
   margin-bottom: 3rem;
-  border-right: 3px solid rgb(111 0 255);
-  border-bottom: 3px solid rgb(111 0 255);
+  /* border-right: 3px solid rgb(111 0 255);
+  border-bottom: 3px solid rgb(111 0 255); */
+  border-right: 3px solid rgb(41 1 162);
+  border-bottom: 3px solid rgb(41 1 162);
   padding-bottom: .8rem;
   /* padding-top: .1rem; */
   padding-left: 1.4rem;
@@ -164,7 +167,8 @@ header a {
   font-weight: 500;
   text-decoration: none;
   border-radius: 5px;
-  background: linear-gradient(334deg, rgb(0 195 195), rgb(111 0 255));
+  /* background: linear-gradient(334deg, rgb(0 195 195), rgb(111 0 255)); */
+  background: linear-gradient(334deg, rgb(0 195 195), rgb(41 1 162));
   padding: .5rem 1rem;
   text-align: center;
   position: relative;
@@ -177,13 +181,15 @@ header i {
   margin-left: .2rem;
 } 
 header a:hover {
-  background: linear-gradient(334deg, rgb(111 0 255), rgb(0 195 195));
+  /* background: linear-gradient(334deg, rgb(111 0 255), rgb(0 195 195)); */
+  background: linear-gradient(334deg, rgb(41 1 162), rgb(0 195 195));
 }
 .summary {
   margin-bottom: 2.4rem;
 }
 .summary h3 {
-  background: linear-gradient(334deg, rgb(0 187 187), rgb(111 0 255));
+  /* background: linear-gradient(334deg, rgb(0 187 187), rgb(111 0 255)); */
+  background: linear-gradient(334deg, rgb(0 195 195), rgb(41 1 162));
   padding: .5rem 1rem;
   color: white;
   font-size: 1rem;
@@ -202,7 +208,9 @@ hr {
   margin-bottom: 2rem;
 }
 .experience h3 {
-  background: linear-gradient(120deg, rgb(0 187 187), rgb(111 0 255));
+  /* background: linear-gradient(120deg, rgb(0 187 187), rgb(111 0 255)); */
+  /* background: linear-gradient(334deg, rgb(0 195 195), rgb(41 1 162)); */
+  background: linear-gradient(334deg, rgb(0 195 195), rgb(41 1 162));
   padding: .5rem 1rem;
   color: white;
   font-size: 1rem;
@@ -256,13 +264,15 @@ ul {
   font-weight: 500;
   text-decoration: none;
   border-radius: 5px;
-  background: linear-gradient(334deg, rgb(0 195 195), rgb(111 0 255));
+  /* background: linear-gradient(334deg, rgb(0 195 195), rgb(111 0 255)); */
+  background: linear-gradient(334deg, rgb(0 195 195), rgb(41 1 162));
   padding: .5rem 1.7rem;
   text-align: center;
   transition: .4s linear;
 }
 .foot a:hover {
-  background: linear-gradient(334deg, rgb(111 0 255), rgb(0 195 195));
+  /* background: linear-gradient(334deg, rgb(111 0 255), rgb(0 195 195)); */
+  background: linear-gradient(334deg, rgb(41 1 162), rgb(0 195 195));
 }
 .foot img {
   margin-right: 2rem;
