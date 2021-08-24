@@ -13,7 +13,7 @@ body {
 }
 aside {
   /* background: linear-gradient(334deg, rgb(0 195 195), rgb(111 0 255)); */
-  background: linear-gradient(334deg, rgb(0 195 195), rgb(41 1 162));
+  background: linear-gradient(127deg, #0c51fa, #02f8ae);
   color: white;
   padding: 1rem 2.6rem;
   width: 30%;
@@ -142,8 +142,8 @@ header {
   margin-bottom: 3rem;
   /* border-right: 3px solid rgb(111 0 255);
   border-bottom: 3px solid rgb(111 0 255); */
-  border-right: 3px solid rgb(41 1 162);
-  border-bottom: 3px solid rgb(41 1 162);
+  border-right: 3px solid #0c51fa;
+  border-bottom: 3px solid #0c51fa;
   padding-bottom: .8rem;
   /* padding-top: .1rem; */
   padding-left: 1.4rem;
@@ -160,7 +160,7 @@ header h1 {
 }
 header h4 {
   margin: 0;
-  color: rgb(111 0 255);
+  color: #0c51fa;
 }
 header a {
   color: rgb(246, 246, 255);
@@ -168,7 +168,7 @@ header a {
   text-decoration: none;
   border-radius: 5px;
   /* background: linear-gradient(334deg, rgb(0 195 195), rgb(111 0 255)); */
-  background: linear-gradient(334deg, rgb(0 195 195), rgb(41 1 162));
+  background: linear-gradient(127deg, #0c51fa 30%, #02f8ae);
   padding: .5rem 1rem;
   text-align: center;
   position: relative;
@@ -179,17 +179,19 @@ header a {
 }
 header i {
   margin-left: .2rem;
+  font-size: .8rem;
+  font-weight: 100;
 } 
 header a:hover {
   /* background: linear-gradient(334deg, rgb(111 0 255), rgb(0 195 195)); */
-  background: linear-gradient(334deg, rgb(41 1 162), rgb(0 195 195));
+  background: linear-gradient(127deg, #02f8ae, #0c51fa);
 }
 .summary {
   margin-bottom: 2.4rem;
 }
 .summary h3 {
   /* background: linear-gradient(334deg, rgb(0 187 187), rgb(111 0 255)); */
-  background: linear-gradient(334deg, rgb(0 195 195), rgb(41 1 162));
+  background: linear-gradient(127deg, #0c51fa, #02f8ae);
   padding: .5rem 1rem;
   color: white;
   font-size: 1rem;
@@ -210,7 +212,7 @@ hr {
 .experience h3 {
   /* background: linear-gradient(120deg, rgb(0 187 187), rgb(111 0 255)); */
   /* background: linear-gradient(334deg, rgb(0 195 195), rgb(41 1 162)); */
-  background: linear-gradient(334deg, rgb(0 195 195), rgb(41 1 162));
+  background: linear-gradient(127deg, #02f8ae, #0c51fa);
   padding: .5rem 1rem;
   color: white;
   font-size: 1rem;
@@ -265,14 +267,14 @@ ul {
   text-decoration: none;
   border-radius: 5px;
   /* background: linear-gradient(334deg, rgb(0 195 195), rgb(111 0 255)); */
-  background: linear-gradient(334deg, rgb(0 195 195), rgb(41 1 162));
+  background: linear-gradient(127deg, #0c51fa, #02f8ae);
   padding: .5rem 1.7rem;
   text-align: center;
   transition: .4s linear;
 }
 .foot a:hover {
   /* background: linear-gradient(334deg, rgb(111 0 255), rgb(0 195 195)); */
-  background: linear-gradient(334deg, rgb(41 1 162), rgb(0 195 195));
+  background: linear-gradient(127deg, #02f8ae, #0c51fa);
 }
 .foot img {
   margin-right: 2rem;
