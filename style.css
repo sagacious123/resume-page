@@ -162,30 +162,6 @@ header h4 {
   margin: 0;
   color: #0c51fa;
 }
-header a {
-  color: rgb(246, 246, 255);
-  font-weight: 500;
-  text-decoration: none;
-  border-radius: 5px;
-  /* background: linear-gradient(334deg, rgb(0 195 195), rgb(111 0 255)); */
-  background: linear-gradient(127deg, #0c51fa 30%, #02f8ae);
-  padding: .5rem 1rem;
-  text-align: center;
-  position: relative;
-  /* top: -2rem; */
-  right: .8rem;
-  float: right;
-  transition: .4s linear;
-}
-header i {
-  margin-left: .2rem;
-  font-size: .8rem;
-  font-weight: 100;
-} 
-header a:hover {
-  /* background: linear-gradient(334deg, rgb(111 0 255), rgb(0 195 195)); */
-  background: linear-gradient(127deg, #02f8ae, #0c51fa);
-}
 .summary {
   margin-bottom: 2.4rem;
 }
@@ -254,7 +230,7 @@ ul {
 }
 .foot {
   margin-top: 1rem;
-  width: 60%;
+  width: 70%;
   margin: auto;
   margin-bottom: 2rem;
   display: flex;
@@ -276,8 +252,31 @@ ul {
   /* background: linear-gradient(334deg, rgb(111 0 255), rgb(0 195 195)); */
   background: linear-gradient(127deg, #02f8ae, #0c51fa);
 }
+.foot a:first-child {
+  color: rgb(246, 246, 255);
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 5px;
+  /* background: linear-gradient(334deg, rgb(0 195 195), rgb(111 0 255)); */
+  background: linear-gradient(127deg, #0c51fa 30%, #02f8ae);
+  padding: .5rem 1rem;
+  text-align: center;
+  position: relative;
+  /* top: -2rem; */
+  transition: .4s linear;
+}
+.foot i {
+  margin-left: .2rem;
+  font-size: .8rem;
+  font-weight: 500;
+} 
+.foot a:first-child:hover {
+  /* background: linear-gradient(334deg, rgb(111 0 255), rgb(0 195 195)); */
+  background: linear-gradient(127deg, #02f8ae, #0c51fa);
+}
 .foot img {
   margin-right: 2rem;
+  margin-left: 2rem;
   height: 100px;
 }
 
@@ -318,6 +317,9 @@ ul {
   }
   .experience h5 {
     margin-bottom: 0;
+  }
+  .foot {
+    width: 80%;
   }
   /* .tools {
     width: 49%;
@@ -374,10 +376,12 @@ ul {
   .foot {
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
   .foot img {
     margin-bottom: 1rem;
     margin-right: 0;
+    margin-left: 0;
   }
   .foot a {
     padding: .5rem 1rem;
